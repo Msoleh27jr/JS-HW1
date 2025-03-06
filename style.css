@@ -1,0 +1,44 @@
+.card {
+    width: 230px;
+    height: 160px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    background-image: url(./360_F_59099149_r6ydpRsKxnkjPNCVPjUw0FNkeo4PWugD.jpg);
+    background-size: cover;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70px;
+    height: 120px;
+    /* background-color: aqua; */
+}
+.ask {
+    font-size: 5px;
+    /* background-color: aqua; */
+    line-height: 0%;
+    color: gray;
+}
+.h1 {
+    font-size: 12px;
+}
+.info {
+    line-height: 0%;
+    font-size: 8px;
+    font-weight: bold;
+    /* background-color: aqua; */
+    padding-bottom: 5px;
+}
+.id {
+    font-size: 8px;
+    line-height: 0%;
+}
+.askId {
+    font-size: 7px;
+    white-space-collapse: 100px;
+    text-align: center;
+    font-family: sans-serif;
+}
